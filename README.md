@@ -23,7 +23,7 @@ How To Use
 - `vagrant` In your path
 - `virtualbox` In your path
 
-```Vagrant v = new Vagrant(new File('/path/to/my/Vagrantfile'));
-assert v.status() == Vagrant.Status.POWERED_OFF
-v.up();
-```
+    Vagrant v = new Vagrant(new File('/path/to/my/Vagrantfile'));
+    assert v.status() == Vagrant.Status.POWERED_OFF
+    v.up();
+
